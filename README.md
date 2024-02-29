@@ -44,27 +44,39 @@ HOW TO USE THE SCRIPT:-
 
  For VM Users:    
   1). Start your VM.
+  
   2). Download and save the appropriate version of the startup.sh script and save it in your HOME DIRECTORY.
+  
   3). Open GNMONE TERMINAL. DO NOT USE TERMINATOR TERMINAL. The script doesn't run properly in TERMINATOR terminal. TERMINATOR runs differently than GNOME TERMINAL
+  
   4). From  your home directory run the following command:
   
         ./startup.sh
+  
   5). Wait for the roscore and audubon unity to be launched.
+  
   6). Now run your Simulator from Windows OS and watchout for the "CONNECTED TO HOST" message.
+  
   7). After your work is done run the following commands:
 
         killall -9 roscore
         killall -9 rosmaster
+  
   NOTE: If you face an error saying that ROSMASTER is already active try running the above commands and re-run the .sh file.
 
 
 For Native Linux Users:
         
   1). Download the native_startup.sh file in your home directory.
+  
   2). NOTE: You might need to update the directory as per you system. just replace the <> <> with your folder names
+  
   3). After completing the PREREQUISITE run the native_startup.sh file from your home directory using GNOME TERMINAL.
+  
   4). Wait for the processes to finish.
+  
   5). Start with your work!
+  
   6). After your work is done remember to run the following commands:
   
         killall -9 roscore
@@ -75,15 +87,21 @@ For Native Linux Users:
 For MACUSERS:-
   
 SAME AS VM USERS:
+ 
   1). Start your VM.
+  
   2). Download and save the appropriate version of the startup.sh script and save it in your HOME DIRECTORY.
+  
   3). Open GNMONE TERMINAL. DO NOT USE TERMINATOR TERMINAL. The script doesn't run properly in TERMINATOR terminal. TERMINATOR runs differently than GNOME TERMINAL
+  
   4). From  your home directory run the following command:
 
               ./startup.sh
               
   5). Wait for the roscore and audubon unity to be launched.
+  
   6). Now run your Simulator from Windows OS and watchout for the "CONNECTED TO HOST" message.
+  
   7). After your work is done run the following commands:
               
               killall -9 roscore
@@ -95,6 +113,7 @@ I'm not sure as of now the ROS is setup for MACOS I be happy if someone can test
 MAKE ALL THE FILES EXECUTABLES USING A SINGLE COMMAND:
 
 STEPS:
+    
     1). Clone into the Github Repo of you assignment. cd into that folder and the run the below given command:
     
               sudo chmod -R 700 .
