@@ -30,11 +30,14 @@ HOW TO USE THE SCRIPT:-
         
         sudo nano ~/.bashrc
     
+  
   2). Scroll to the end of the file and copy paste the following line:
   
         source home/cse4568/catkin_ws/devel/setup.bash
   
+  
   3). Press ctrl+S to save and ctrl+x to exit.
+  
   4). Restart your VM for the above additions to take effect.
   NOTE: AFTER PERFORMING THE PREREQUISITE YOU NEED NOT RUN THE SOURCE DEVEL/SETUP.BASH COMMAND EVERY TIME YOU OPEN A NEW TERMINAL.
 
