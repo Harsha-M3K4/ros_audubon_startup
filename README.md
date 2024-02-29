@@ -1,6 +1,10 @@
 # ros_audubon_startup
 This is a script to start the roscore and audubon unity using a single command
 
+DISCLAIMER: PLEASE DO YOUR DUE DILIGENCE AND UNDERSTAND THE CODE BEFORE RUNNING IT! ALTHOUGH CARE HAS BEEN TAKEN TO MINIMIZE FATAL ERRORS FROM OCCURING, SOMETIMES BUGS ARE POSSIBLE! I AM NOT RESPONSIBLE IF ANYTHING ISN'T WORKING AS EXPECTED! I PERFORMED EXTENSIVE TESTS ON NATIVE INSTALLATION BUT I'M LIMITED TO TESTING ON MACS AND VM'S.
+
+
+
 INTRODUCTION:
   
   This is a Bash script, a type of script used for running commands in the Linux operating system. Bash scripts are text files containing a series of commands. These scripts are executed in sequence to automate repetitive command-line tasks.
@@ -84,3 +88,13 @@ SAME AS VM USERS:
    NOTE: If you face an error saying that ROSMASTER is already active try running the above commands and re-run the .sh file.
 
 I'm not sure as of now the ROS is setup for MACOS I be happy if someone can test it and let me know the results by raising an issue! I'll try my best to rectify the code ASAP.
+
+MAKE ALL THE FILES EXECUTABLES USING A SINGLE COMMAND:
+
+STEPS:
+    1). Clone into the Github Repo of you assignment. cd into that folder and the run the below given command:
+    
+              sudo chmod -R 700 .
+
+NOTE: The . here works in the same way when you want to launch VS Code from a particular direcctory.
+ 
