@@ -12,7 +12,3 @@ sleep 4 #Sleeps/waits for 4 seconds
 
 # Open a new tab and roslaunch audubon_unity audubon_unity.launch
 gnome-terminal --tab -- bash -c "roslaunch audubon_unity audubon_unity.launch; exec bash" #Launches audubon_unity.launch in a new terminal tab
-
-# Sleep for a bit to ensure that the previous command has time to start up
-sleep 4 #Sleeps/waits for 4 seconds
-
