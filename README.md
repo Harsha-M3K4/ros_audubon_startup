@@ -45,9 +45,11 @@ HOW TO USE THE SCRIPT:-
  For VM Users:    
   1). Start your VM.
   
-  2). Download and save the appropriate version of the startup.sh script and save it in your HOME DIRECTORY.
-  
-  3). Open GNMONE TERMINAL. DO NOT USE TERMINATOR TERMINAL. The script doesn't run properly in TERMINATOR terminal. TERMINATOR runs differently than GNOME TERMINAL
+  2). Open GNMONE TERMINAL. DO NOT USE TERMINATOR TERMINAL. Clone this Repository in your "HOME" Directory, then run this following command:
+
+       sudo chmod -R 700 .
+
+  Run this command INSIDE the Directory, This makes all the files as executables, The script doesn't run properly in TERMINATOR terminal. TERMINATOR incorporates different syntax than GNOME TERMINAL      
   
   4). From  your home directory run the following command:
   
