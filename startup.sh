@@ -15,3 +15,5 @@ sleep 4
 
 # Open a new tab, go to the directory and run the file
 gnome-terminal --tab --working-directory="/home/<user_name>/Desktop/F1Tenth_Simulator_Linux" -- bash -c "cd /home/<user_name>/Desktop/F1Tenth_Simulator_Linux && ./F1Tenth_Simulator_Linux.x86_64; exec bash" #Launches F1Tenth_Simulator_Linux.x86_64 in a new terminal tab
+
+cd
