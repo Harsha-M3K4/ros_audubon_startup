@@ -116,7 +116,7 @@ MAKE ALL THE FILES EXECUTABLES USING A SINGLE COMMAND:
 
 STEPS:
     
-    1). Clone into the Github Repo of you assignment. cd into that folder and the run the below given command:
+  1). Clone into the Github Repo of you assignment. cd into that folder and the run the below given command:
     
               sudo chmod -R 700 .
 
