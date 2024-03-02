@@ -5,13 +5,15 @@
 #Run this script and then start your Unity application in Windows.
 
 # Start roscore
-roscore & #Launches roscore in the background
+echo "Starting roscore"
+roscore & 
 
-# Sleep for a bit to ensure that roscore has time to start up
-sleep 3 #Sleeps/waits for 4 seconds
+# Sleep for 3 seconds to ensure that roscore has time to start up
+sleep 3
 
 # Open a new tab and roslaunch audubon_unity audubon_unity.launch
-gnome-terminal --tab -- bash -c "roslaunch audubon_unity audubon_unity.launch; exec bash" #Launches audubon_unity.launch in a new terminal tab
+echo "Launching Audubon Unity"
+gnome-terminal --tab -- bash -c "roslaunch audubon_unity audubon_unity.launch; exec bash"
 
 #opens a new terminal tab
 gnome-terminal --tab
