@@ -106,8 +106,7 @@ SAME AS VM USERS:
   
   7). After your work is done run the following commands:
               
-              killall -9 roscore
-              killall -9 rosmaster
+              ./process_shutdown
    NOTE: If you face an error saying that ROSMASTER is already active try running the above commands and re-run the .sh file.
 
 I'm not sure as of now the ROS is setup for MACOS I be happy if someone can test it and let me know the results by raising an issue! I'll try my best to rectify the code ASAP.
